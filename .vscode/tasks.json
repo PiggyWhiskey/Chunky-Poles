@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "ZIP",
             "type": "shell",
-            "command": "echo Hello",
+            "command": "C:\\Program Files\\7-Zip.exe a Chunky-Poles_1.0.0 -saa -tzip -i!Chunk*\\*",
             "group": {
                 "kind": "build",
                 "isDefault": true
