@@ -3,10 +3,13 @@
 data.raw["electric-pole"]["small-electric-pole"].supply_area_distance = data.raw["electric-pole"]["small-electric-pole"].maximum_wire_distance / 2
 
 data.raw["electric-pole"]["medium-electric-pole"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole"].maximum_wire_distance / 2
-if settings.startup["bobmods-power-poles"].value == true then
-	data.raw["electric-pole"]["medium-electric-pole-2"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole-2"].maximum_wire_distance / 2
-	data.raw["electric-pole"]["medium-electric-pole-3"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole-3"].maximum_wire_distance / 2
-	data.raw["electric-pole"]["medium-electric-pole-4"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole-4"].maximum_wire_distance / 2
+
+if mods[bobpower] then	
+	if settings.startup["bobmods-power-poles"].value == true then
+		data.raw["electric-pole"]["medium-electric-pole-2"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole-2"].maximum_wire_distance / 2
+		data.raw["electric-pole"]["medium-electric-pole-3"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole-3"].maximum_wire_distance / 2
+		data.raw["electric-pole"]["medium-electric-pole-4"].supply_area_distance = data.raw["electric-pole"]["medium-electric-pole-4"].maximum_wire_distance / 2
+	end
 end
 
 
