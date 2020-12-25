@@ -1,0 +1,12 @@
+{
+  "name": "Chunky-Poles",
+  "version": "1.2.4",
+  "factorio_version": "1.1",
+  "title": "Chunky Power Poles",
+  "author": "PiggyWhiskey",
+  "contact": "",
+  "homepage": "",
+  "description": "Extends the area of small and medium power poles to match their wire reach and extends wires to align to Chunk boundaries (32 tiles)",
+  "dependencies": ["base >= 1.1.0", "?bobpower >= 1.1.0", "?boblogistics >= 1.1.0", "?LightedPolesPlus >=1.7.0"],
+  "license": "MIT"
+}
