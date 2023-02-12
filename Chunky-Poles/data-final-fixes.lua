@@ -61,7 +61,7 @@ end
 --Coverage Area and Wire Distance
 if settings.startup["chunky-substation"].value == true then
 
-	data.raw["electric-pole"]["substation"].maximum_wire_distance = 16 --0.5 Chunk
+	data.raw["electric-pole"]["substation"].maximum_wire_distance = 32 --0.5 Chunk
 	data.raw["electric-pole"]["substation"].supply_area_distance = 16
 
 
@@ -87,12 +87,12 @@ if settings.startup["chunky-substation"].value == true then
 	end
 
 	if mods["LightedPolesPlus"] then
-		data.raw["electric-pole"]["lighted-substation"].maximum_wire_distance = 16 --0.5 Chunk
+		data.raw["electric-pole"]["lighted-substation"].maximum_wire_distance = 32 --0.5 Chunk
 		data.raw["electric-pole"]["lighted-substation"].supply_area_distance = 16
 	end
 
 	if mods["Krastorio2"] then
-		data.raw["electric-pole"]["kr-substation-mk2"].maximum_wire_distance = 24 --1 chunk
+		data.raw["electric-pole"]["kr-substation-mk2"].maximum_wire_distance = 48 --1 chunk
 		data.raw["electric-pole"]["kr-substation-mk2"].supply_area_distance = 24 --1 chunk
 	end
 end
